@@ -45,7 +45,7 @@ public class Array <T>{
     }
 
     private boolean increaseCap(){ // When trying to add new element, check if it has enough capacity, if not double it
-        if(size() + 1 >= capacity){
+        if(size() + 1 > capacity){
             capacity = (capacity == 0) ? 1 : capacity * 2;
             return true;
         }
