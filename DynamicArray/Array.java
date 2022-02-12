@@ -3,9 +3,9 @@ package DynamicArray;
 @SuppressWarnings("unchecked")
 public class Array <T>{
 
-    private T [] arr; // Static array
+    protected T [] arr; // Static array
     private int len = 0; // Length the user sees
-    private int capacity = 0; // Actual length of the array
+    protected int capacity = 0; // Actual length of the array
 
 
     public Array(){

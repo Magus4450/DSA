@@ -1,7 +1,5 @@
 package StacksAndQueues;
 
-import javax.sound.sampled.SourceDataLine;
-import javax.swing.plaf.synth.SynthSeparatorUI;
 
 class StackD {
     
