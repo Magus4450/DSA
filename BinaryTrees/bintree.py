@@ -8,12 +8,14 @@ class Node:
 
 
 
-a = Node(5)
-b = Node(11)
-c = Node(3)
-d = Node(4)
-e = Node(2)
-f = Node(1)
+
+a = Node(10)
+b = Node(20)
+c = Node(30)
+d = Node(40)
+e = Node(60)
+f = Node(70)
+g = Node(80)
 
 
 
@@ -21,5 +23,6 @@ a.left = b
 a.right = c
 b.left = d
 b.right = e
-c.right = f
+c.left = f
+c.right = g
 
